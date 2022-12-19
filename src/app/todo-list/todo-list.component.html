@@ -1,1 +1,6 @@
 <p>todo-list works!</p>
+
+<form (ngSubmit)="addTodo()">
+    <input type="text" [(ngModel)]="newTodo" placeholder="Add to list" name="newTodo">
+    <button type="submit">Add</button>
+</form>
