@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent {
+  newTodo: string = '';
+  todos: { todo: string; completed: boolean }[] = [];
 
+  addTodo(todo: string) {
+    this.todos.push({ todo: todo, completed: false });
+    this.newTodo = '';
+  }
 }
