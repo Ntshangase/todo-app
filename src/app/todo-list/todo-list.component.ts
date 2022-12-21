@@ -13,4 +13,10 @@ export class TodoListComponent {
     this.todos.push({ todo: todo, completed: false });
     this.newTodo = '';
   }
+
+  toggleCompleted(todo: { todo: string; completed: boolean }) {
+    todo.completed = !todo.completed;
+  }
 }
+
+
