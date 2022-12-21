@@ -17,6 +17,10 @@ export class TodoListComponent {
   toggleCompleted(todo: { todo: string; completed: boolean }) {
     todo.completed = !todo.completed;
   }
+
+  deleteTodo(todo: { todo: string; completed: boolean }) {
+    this.todos = this.todos.filter((t) => t !== todo);
+  }
 }
 
 
