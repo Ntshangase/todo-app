@@ -9,7 +9,7 @@ To enable auto completion run 'ng completion'
 Angular seems fun.
 installed angular on UBUNTU , which is currently the best workspace for me.
 you do feel the I in AI when using chatGPT.🧠
-Asking chatG feels like asking a tutor who has cream explainations.
+Asking chatGPT feels like asking a tutor who has cream explainations.
 
 I'm done with the app now, let's rate my experience with building my first app using chatG:
 Above expectations, I will definetly be using it in future  when building, and I can't stress
