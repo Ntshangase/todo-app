@@ -47,3 +47,8 @@ form {
     border: none;
     cursor: pointer;
   }
+
+  ul li button:hover {
+    background-color: #1976d2; /* A different shade of blue */
+    border-radius: 20px;
+  }

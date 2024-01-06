@@ -16,6 +16,6 @@
       (click)="toggleCompleted(todo)"
     />
     {{ todo.todo }}
-    <button (click)="deleteTodo(todo)">Delete</button>
+    <button [disabled]="!todo.completed" (click)="deleteTodo(todo)">Delete</button>
   </li>
 </ul>
